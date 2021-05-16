@@ -1,0 +1,185 @@
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Medium.woff2") format("woff2"),
+      url("../fonts/Poppins-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../fonts/Poppins-Bold.woff2") format("woff2"),
+      url("../fonts/Poppins-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.container {
+  max-width: 1150px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body{
+  background-color: #fff;
+}
+
+img{
+  max-width: 100%;
+
+}
+
+/* HEADER */
+.site-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.site-header{
+  align-items: center;
+  padding-top: 48px;
+  }
+.logo-items{
+  display: flex;
+  align-items: center;
+}
+.header-list{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-left: 45px;
+
+}
+
+.header-items{
+  margin-right: 30px;
+}
+.login-signup{
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.header-list a{
+  text-decoration: none;
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 22px;
+color: #9E9AA8;
+transition: all 0.4s ease;
+}
+.header-list a:hover{
+  color: #34313D;
+}
+
+
+
+
+.login-signup a{
+  text-decoration: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+  color: #FFFFFF;
+  }
+
+
+  .header-signup a{
+    background: #2BD0D0;
+  border-radius: 28px;
+  color: #FFFFFF;
+  padding: 9px 23px;
+  transition: all 0.4s ease;
+  }
+
+  .header-signup a:hover{
+    background: #9AE3E3;
+  }
+
+  .header-login a{
+  color: #9E9AA8;
+  margin-right: 37px;
+  transition: all 0.4s ease;
+  }
+
+  .header-login a:hover{
+    color: #34313D;
+  }
+
+/* HERO */
+
+.hero-all-text-link{
+  width: 565px;
+  margin-bottom: 138px;
+}
+.hero-head{
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 90px;
+letter-spacing: -2px;
+color: #34313D;
+margin: 0;
+margin-bottom: 10px;
+margin-top: 139px;
+}
+.hero-texts{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 36px;
+  /* or 164% */
+  letter-spacing: 0.15px;
+  color: #9E9AA8;
+  margin: 0;
+  margin-bottom: 38px;
+
+}
+
+.hero-link{
+ text-decoration: none;
+ background: #2BD0D0;
+  border-radius: 28px;
+  color: #FFFFFF;
+  padding: 9px 23px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 22px;
+transition: all 0.4s ease;
+}
+
+.hero-link:hover{
+  background: #9AE3E3;
+}
+.site-hero{
+  background-image: url(../img/working_with_computer.png);
+  background-position-x: 950px;
+  background-position-y:center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
