@@ -292,6 +292,9 @@ background-repeat: no-repeat;
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+
+
 .fully::before{
   content: "";
   background-image: url("../img/advanced-icon-3.svg");
@@ -307,4 +310,34 @@ margin-top: 44px;;
 }
 .fully{
   margin-top: 88px;
+}
+
+/* BOOST */
+
+.boost-get{
+  background-image: url("../img/advanced-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+ }
+.boost-all{
+width: 540px;
+text-align: center;
+padding-top: 47px;
+padding-bottom: 47px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.boost-head{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  letter-spacing: -1px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-bottom: 35px;
 }
